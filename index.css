@@ -91,7 +91,6 @@
 
 
 
-/* media queries */
 @media only screen and (max-width: 600px) {
     .navbar__menu_container .user__icon {
         display: flex;
@@ -128,6 +127,17 @@
         }
 }
 
+.fa-search{
+    color: rgb(148, 139, 139);
+    min-width: 10px;
+
+}
+
+.material-icons{
+    font-size:24;
+    color:rgb(249, 122, 122);
+    max-width: 10px;
+}
 
 .container{
     margin: 3rem auto;
@@ -214,19 +224,19 @@
 }
 
 .card1{
-    background-image: url('images/collection1.jpg');
+    background-image: url('images/collection1.jpeg');
 }
 
 .card2{
-    background-image: url('images/collection2.jpg');
+    background-image: url('images/collection2.jpeg');
 }
 
 .card3 {
-    background-image: url('images/collection3.jpg');
+    background-image: url('images/collection3.jpeg');
 }
 
 .card4 {
-    background-image: url('images/collection4.jpg');
+    background-image: url('images/collection4.jpeg');
 }
 
 .overlay{
